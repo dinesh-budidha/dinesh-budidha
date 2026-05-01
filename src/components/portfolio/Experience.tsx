@@ -35,10 +35,10 @@ export const Experience = () => {
                       <Icon size={14} />
                     </div>
                     <div className="glass rounded-2xl p-6 inline-block text-left">
-                      <div className="text-xs font-mono text-primary">{e.period}</div>
-                      <h3 className="mt-1 font-display text-xl font-bold">{e.title}</h3>
-                      <div className="text-sm text-muted-foreground mt-0.5">{e.org}</div>
-                      <p className="mt-3 text-sm text-foreground/80">{e.detail}</p>
+                      <div className="text-xs font-mono text-primary whitespace-pre-line">{e.period}</div>
+                      <h3 className="mt-1 font-display text-xl font-bold whitespace-pre-line">{e.title}</h3>
+                      <div className="text-sm text-muted-foreground mt-0.5 whitespace-pre-line">{e.org}</div>
+                      <p className="mt-3 text-sm text-foreground/80 whitespace-pre-line">{e.detail}</p>
                     </div>
                   </div>
                 </motion.div>
