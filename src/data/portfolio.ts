@@ -14,7 +14,7 @@ export const about = {
   intro:
     "Computer Science student obsessed with building things that actually ship. I work across the stack — from training and prompting LLMs to designing APIs and shipping clean React UIs.",
   highlights: [
-    { label: "B.Tech CSE", detail: "Final Year" },
+    { label: "B.Tech CSE (Final Year)", detail: "Samskruti College of Engineering and Technology" },
     { label: "Diploma CSE", detail: "Samskruti College of Engineering & Technology" },
     { label: "Focus", detail: "AI · LLMs · Full-Stack" },
   ],
@@ -133,7 +133,7 @@ export const experience = [
     org: "Samskruti College of Engineering & Technology",
     period: "Final Year",
     detail:
-      "Pursuing B.Tech in CSE with focus on AI, full-stack development, and applied software engineering.",
+      "Final Year\nB.Tech in Computer Science\nSamskruti College of Engineering & Technology\n\nPursuing B.Tech in CSE with focus on AI, full-stack development, and applied software engineering.",
   },
   {
     title: "Diploma in Computer Science",

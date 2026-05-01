@@ -34,11 +34,11 @@ export const Experience = () => {
                     <div className="absolute left-4 md:left-1/2 -translate-x-1/2 top-2 grid h-8 w-8 place-items-center rounded-full bg-gradient-primary text-primary-foreground shadow-glow">
                       <Icon size={14} />
                     </div>
-                    <div className="glass rounded-2xl p-6 inline-block text-left">
-                      <div className="text-xs font-mono text-primary">{e.period}</div>
-                      <h3 className="mt-1 font-display text-xl font-bold">{e.title}</h3>
-                      <div className="text-sm text-muted-foreground mt-0.5">{e.org}</div>
-                      <p className="mt-3 text-sm text-foreground/80">{e.detail}</p>
+                    <div className="glass rounded-2xl p-6 inline-block text-left w-full">
+                      <div className="text-xs font-mono text-primary whitespace-pre-wrap">{e.period}</div>
+                      <h3 className="mt-1 font-display text-xl font-bold whitespace-pre-wrap leading-tight">{e.title}</h3>
+                      <div className="text-sm text-muted-foreground mt-1 whitespace-pre-wrap leading-snug">{e.org}</div>
+                      <p className="mt-4 text-sm text-foreground/80 whitespace-pre-wrap leading-relaxed">{e.detail}</p>
                     </div>
                   </div>
                 </motion.div>
