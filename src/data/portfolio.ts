@@ -2,20 +2,20 @@ export const profile = {
   name: "Dinesh Goud",
   role: "Aspiring Software Engineer",
   subRole: "AI & Full-Stack Developer",
-  location: "India",
+  location: "Hyderabad, Telangana, India",
   tagline: "Building intelligent systems & scalable web applications",
-  email: "dineshgoud@example.com",
-  github: "https://github.com/dineshgoud",
-  githubUser: "dineshgoud",
-  linkedin: "https://linkedin.com/in/dineshgoud",
+  email: "dineshgoudb@gmail.com",
+  github: "https://github.com/dinesh-budidha",
+  githubUser: "dinesh-budidha",
+  linkedin: "https://www.linkedin.com/in/budidha-dinesh-goud/",
 };
 
 export const about = {
   intro:
     "Computer Science student obsessed with building things that actually ship. I work across the stack — from training and prompting LLMs to designing APIs and shipping clean React UIs.",
   highlights: [
-    { label: "B.Tech CSE", detail: "3rd Year" },
-    { label: "IIT Madras", detail: "BS — Electronic Systems" },
+    { label: "B.Tech CSE", detail: "Final Year" },
+    { label: "Diploma CSE", detail: "Samskruti College of Engineering & Technology" },
     { label: "Focus", detail: "AI · LLMs · Full-Stack" },
   ],
 };
@@ -129,10 +129,17 @@ export const experience = [
       "Hands-on training in AI fundamentals, model deployment workflows, and enterprise AI tooling.",
   },
   {
-    title: "AI / ML Course — ISRO",
-    org: "Indian Space Research Organisation",
-    period: "2024",
+    title: "B.Tech in Computer Science",
+    org: "Samskruti College of Engineering & Technology",
+    period: "Final Year",
     detail:
-      "Structured coursework in machine learning fundamentals, model evaluation, and applied AI.",
+      "Pursuing B.Tech in CSE with focus on AI, full-stack development, and applied software engineering.",
+  },
+  {
+    title: "Diploma in Computer Science",
+    org: "Samskruti College of Engineering & Technology",
+    period: "Completed",
+    detail:
+      "Foundational coursework in programming, data structures, databases, and computer fundamentals.",
   },
 ];
