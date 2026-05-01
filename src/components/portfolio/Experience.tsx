@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen } from "lucide-react";
+import { Award, BookOpen, GraduationCap } from "lucide-react";
 import { experience } from "@/data/portfolio";
 import { SectionHeader } from "./SectionHeader";
 
-const icons = [Award, BookOpen];
+const icons = [Award, GraduationCap, BookOpen];
 
 export const Experience = () => {
   return (
