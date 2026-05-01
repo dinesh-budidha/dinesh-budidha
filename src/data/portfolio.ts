@@ -133,7 +133,7 @@ export const experience = [
     org: "Samskruti College of Engineering & Technology",
     period: "Final Year",
     detail:
-      "Pursuing B.Tech in CSE with focus on AI, full-stack development, and applied software engineering.",
+      "Final Year\nB.Tech in Computer Science\nSamskruti College of Engineering & Technology\n\nPursuing B.Tech in CSE with focus on AI, full-stack development, and applied software engineering.",
   },
   {
     title: "Diploma in Computer Science",
