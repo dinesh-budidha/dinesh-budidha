@@ -19,7 +19,7 @@ export const Experience = () => {
 
           <div className="space-y-10">
             {experience.map((e, i) => {
-              const Icon = icons[i];
+              const Icon = icons[i] ?? Award;
               const left = i % 2 === 0;
               return (
                 <motion.div
